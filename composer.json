@@ -1,0 +1,14 @@
+{
+    "name": "xviixviixviixvii/pizza-library",
+    "description": "Base Pizza Factory Library",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "PizzaLib\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.1",
+        "squizlabs/php_codesniffer": "^4.0"
+    }
+}
